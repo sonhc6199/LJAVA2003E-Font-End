@@ -1,0 +1,20 @@
+$red-dark:#EF5350;
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+}
+$i: 1;
+@while $i<=12 {
+    .col-#{$i} {
+        float: left;
+        width: ($i*100%/12)-0.2%;
+        color: white;
+        background-color: $red-dark;
+        border: 1px white solid;
+        height: 50px;
+        $i: $i+1;
+    }
+}

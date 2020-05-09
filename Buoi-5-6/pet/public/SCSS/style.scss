@@ -1,0 +1,173 @@
+$black:#312726;
+$pink-light:#D8AA96;
+$purple:#807182;
+$pink:#FAC7C2;
+$pink-dark:#F7B1AB;
+$purple-dark:#807182;
+body {
+    background-color: $pink-light;
+	font-family: arial;
+    color: $black;
+    font-size: 16px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.content-left {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: $purple;
+}
+.content-right {
+    width: 600px;
+    height: 500px;
+    float: left;
+    background-color: $pink;
+}
+.pet{
+    height: 350px;
+}
+.pupassuare {
+    height: 150px;
+}
+.icon-1 {
+    width: 20%;
+    margin:30px 0px 0px 20px;
+}
+.txt-1 {
+    margin: -50px 0 0 20px;
+    font-size: 24px;
+}
+.txt-2 {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 34px;
+}
+.pet img {
+    width: 200px;
+    margin-top: 120px;
+}
+.form {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.form div {
+    float: left;
+}
+.col-1 {
+    width: 450px;
+    height: 70px;
+}
+.photo {
+    margin:20px 0 0 30px;
+}
+.txt-3 {
+    margin-top: 10px;
+}
+.pet-name {
+    width: 170px;
+    height: 40px;
+    border: 1px $purple solid;
+    border-radius: 5px;
+}
+.pet-breed {
+    width: 170px;
+    height: 40px;
+    border: 1px $purple solid;
+    border-radius: 5px;
+}
+.col-2{
+    width: 450px;
+    height: 70px;
+}
+.birth-day{
+    margin-left: 50px;
+}
+.date-time {
+    width: 170px;
+    height: 40px;
+    border: 1px $purple solid;
+    border-radius: 5px;
+}
+.col-3 {
+    width: 450px;
+    height: 70px;
+}
+.Gender {
+    width: 225px;
+    height: 70px;
+}
+.Gender-rad {
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 40px;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type=file]{
+    width: 0px;
+}
+label {
+    display: inline-block;
+    cursor: pointer;
+    width: 79px;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 2.5px;
+}
+input[type="radio"]:checked+label {
+    background-color: $pink-dark;
+}
+.Spayed-Neutered {
+    width: 225px;
+    height: 70px;
+}
+.Spayed-Neutered-rad {
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.col-4 {
+    width: 450px;
+    height: 70px;
+}
+.weight-rad {
+    width: 395px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.col-5 {
+    margin-left: -75px;
+    width: 600px;
+    height: 68px;
+    background-color: white;
+}
+.back input{
+    margin: 17px 0  0 75px;
+    width: 85px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid $purple-dark;
+}
+.next input{
+    margin:17px 0 0 225px;
+    width: 85px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid $purple-dark;
+    background-color: $purple-dark;
+    color: white;
+}

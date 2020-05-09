@@ -1,0 +1,20 @@
+body {
+    font-size: 24px;
+    font-family: Arial;
+}
+table {
+    margin: auto;
+    text-align: center;
+    color: #cccccc; 
+    background-color: darkslategray; 
+    width: 500px; 
+    border-radius: 10px; 
+    height: 300px;
+}
+div {
+    text-align: center;
+    color:darkslategray;
+}
+.yellow-tr {
+    color: yellow;
+}

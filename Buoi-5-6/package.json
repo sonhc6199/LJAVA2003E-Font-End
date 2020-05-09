@@ -1,0 +1,22 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch pet/public/SCSS/style.scss -o pet/public/CSS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonhc6199/HomeWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonhc6199/HomeWork/issues"
+  },
+  "homepage": "https://github.com/sonhc6199/HomeWork#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

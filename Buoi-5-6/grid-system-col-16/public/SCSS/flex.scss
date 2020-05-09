@@ -1,0 +1,30 @@
+$black: #333333;
+$gray:#cccccc;
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: $gray;
+}
+.row {
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.row h1{
+    margin: 0 auto;
+}
+$lenght: 16;
+@for $i from 1 through $lenght {
+    .col-#{$i} {
+        width: ($i*100%/16)-(17*100%/1200);
+        color: white;
+        background-color: $black;
+        border: 1px white solid;
+        height: 50px;
+        margin-left: 17px;
+        border-radius: 7px;
+    }
+}

@@ -1,0 +1,14 @@
+table{
+    font-family: arial;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 640px;
+    border-color: #cccccc;
+}
+.col-1 {
+    background-color: #00CCFF;
+    color: #FFFFFF;
+    height: 50px;
+}

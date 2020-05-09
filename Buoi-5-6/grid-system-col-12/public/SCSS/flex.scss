@@ -1,0 +1,20 @@
+$red-dark:#EF5350;
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    text-align: center;
+    line-height: 60px;
+}
+$lenght: 12;
+@for $i from 1 through $lenght {
+    .col-#{$i} {
+        flex: $i;
+        color: white;
+        background-color: $red-dark;
+        border: 1px white solid;
+        height: 40px;
+    }
+}
