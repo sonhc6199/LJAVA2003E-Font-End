@@ -1,0 +1,73 @@
+.banner .menu .bars {
+    display: block;
+}
+.banner .menu>div:last-child ul:not(.bars) {
+    display: none;
+}
+.container {
+    width: 90%;
+}
+.news {
+    height: 650px;
+}
+.news .content {
+    padding-top: 0px;
+}
+.news .content>div:first-child {
+    padding-right: 0px;
+    padding-top: 30px;
+}
+.news .content>div:not(:first-child) {
+    border-left: none;
+    border-top: 1px #9a9a9a solid;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.news .content>div:not(:first-child) h3 {
+    padding-top: 30px;
+}
+.news .col-4 {
+    flex: 0 0 100%;
+}
+.users {
+    height: 1000px;
+}
+.users .frame {
+    height: 700px;
+}
+.users .title {
+    padding-top: 50px;
+}
+.users .content >div {
+    flex: 0 0 calc((1/2) * 100% - 52px);
+}
+.users .content>div:not(:first-child) {
+    margin-left: 50px;
+}
+.users .content>div:nth-child(3) {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.users .content>div:nth-child(4) {
+    margin-top: 50px;
+}
+.news-2 {
+    height: 1300px;
+}
+.news-2 .frame {
+    height: 1299px;
+}
+.news-2 .frame .title{
+    padding-top: 50px;
+}
+.news-2 .frame .content>div {
+    flex: 0 0 100%;
+    margin-top: 50px;
+}
+.news-2 img {
+    width: 100%;
+    height: 300px;
+}
+.news-2 .frame .content .right {
+    margin-left: 0px;
+}
